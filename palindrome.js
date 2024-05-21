@@ -2,7 +2,7 @@
 // Example: 'isPalindrome ('racecar') should return `true`.
 
 function isPalindrome(nonReversed) {
-    reversed = "";
+   let reversed = "";
    for(let i = nonReversed.length - 1; i >= 0; i--) {
     reversed = reversed + nonReversed[i];
    }
