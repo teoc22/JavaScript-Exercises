@@ -6,7 +6,7 @@ function isAnagram(str1, str2) {
 
     // Check if the string length is the same for both strings   
     if(str1.length !== str2.length)
-        return true;
+        return false;
 
     // Assign the splitted elements of the strings into an array
     let str1Array = str1.split("");
@@ -23,8 +23,7 @@ function isAnagram(str1, str2) {
         if (str1Array[i] === str2Array[i]) {
             anagram = true;
         } else {
-            anagram = false;
-            return anagram;
+           return false;
         }
     }
 
