@@ -4,13 +4,12 @@
 function mergeArrays(array1, array2) {
     let groupedArray = [];
         
-    for (let i = 0; i < array1.length; i = i++) {
         groupedArray = array1.concat(array2);
         groupedArray.sort(); 
 
     console.log(groupedArray);
     return groupedArray;
-}
+
 }
 
 function init() {
